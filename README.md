@@ -1,6 +1,6 @@
 # PhysicsGIF
 
-🎬 **Text-to-Physics GIF Generator** — Generate physically-accurate animated GIFs from natural language descriptions.
+🎬 **Text-to-Physics GIF Generator**: Generate physically-accurate animated GIFs from natural language descriptions. (Experiment only)
 
 ## Overview
 
