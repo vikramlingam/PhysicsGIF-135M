@@ -205,13 +205,3 @@ Training generates 12 visualization charts in `models/my_model/visualizations/`.
 
 Apache 2.0
 
-## Citation
-
-```bibtex
-@misc{physicsgif2024,
-  title={PhysicsGIF: Text-to-Physics Animation via Fine-tuned Language Models},
-  author= Vikram Lingam,
-  year={2025},
-  url={https://github.com/vikramlingam/PhysicsGIF-135M}
-}
-```
