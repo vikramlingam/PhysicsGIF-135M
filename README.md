@@ -154,42 +154,30 @@ Options:
   -q, --quiet         Suppress progress messages
 ```
 
-## Training Your Own Model
-
-```bash
-# Generate training data
-python generate_dataset.py
-
-# Train with visualizations
-python train_parser.py --epochs 20 --output models/my_model
-```
-
-Training generates 12 visualization charts in `models/my_model/visualizations/`.
-
 ## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                 PhysicsGIF Pipeline                          │
+│                 PhysicsGIF Pipeline                         │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  "a red ball bouncing"                                      │
 │           │                                                 │
 │           ▼                                                 │
 │  ┌─────────────────────┐                                    │
-│  │  PhysicsGIF-135M    │  (Fine-tuned LLM)                 │
+│  │  PhysicsGIF-135M    │  (Fine-tuned LLM)                  │
 │  │  Text → JSON DSL    │                                    │
 │  └──────────┬──────────┘                                    │
 │             │                                               │
 │             ▼                                               │
 │  ┌─────────────────────┐                                    │
-│  │  physics.py         │  (Newtonian simulation)           │
+│  │  physics.py         │  (Newtonian simulation)            │
 │  │  Euler integration  │                                    │
 │  └──────────┬──────────┘                                    │
 │             │                                               │
 │             ▼                                               │
 │  ┌─────────────────────┐                                    │
-│  │  renderer.py        │  (PIL-based rendering)            │
+│  │  renderer.py        │  (PIL-based rendering)             │
 │  │  Frame → GIF        │                                    │
 │  └──────────┬──────────┘                                    │
 │             │                                               │
