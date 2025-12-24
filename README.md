@@ -9,6 +9,13 @@ PhysicsGIF converts text descriptions like "a red ball bouncing" into animated G
 ```
 "a red ball bouncing to the right" → 🎬 output.gif
 ```
+## Example Outputs
+
+| Prompt | Output |
+|------|------|
+| a red ball bouncing | ![](output.gif) |
+| two triangles colliding | ![](output_2.gif) |
+
 
 ### How It Works
 
