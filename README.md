@@ -2,8 +2,6 @@
 
 🎬 **Text-to-Physics GIF Generator** — Generate physically-accurate animated GIFs from natural language descriptions.
 
-![Training Loss](models/PhysicsGIF-135M/01_training_loss.png)
-
 ## Overview
 
 PhysicsGIF converts text descriptions like "a red ball bouncing" into animated GIFs with realistic physics simulation.
