@@ -25,8 +25,8 @@ Text Prompt → LLM Parser → JSON Scene Spec → Physics Engine → Renderer �
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/PhysicsGIF.git
-cd PhysicsGIF
+git clone https://github.com/vikramlingam/PhysicsGIF-135M
+cd PhysicsGIF-135M
 ```
 
 ### 2. Install Dependencies
@@ -107,13 +107,8 @@ python generate.py "small purple ball floating left"
 ```
 PhysicsGIF/
 ├── generate.py              # Main CLI (interactive mode)
-├── train_parser.py          # Training script
-├── generate_dataset.py      # Dataset generation
 ├── requirements.txt
 ├── README.md
-├── RESEARCH_PAPER.md
-├── data/
-│   └── training_data.jsonl  # 500 training examples
 ├── src/
 │   ├── dsl.py               # Scene specification DSL
 │   ├── parser.py            # LLM text parser
@@ -215,8 +210,8 @@ Apache 2.0
 ```bibtex
 @misc{physicsgif2024,
   title={PhysicsGIF: Text-to-Physics Animation via Fine-tuned Language Models},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/your-username/PhysicsGIF}
+  author= Vikram Lingam,
+  year={2025},
+  url={https://github.com/vikramlingam/PhysicsGIF-135M}
 }
 ```
