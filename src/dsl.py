@@ -1,15 +1,7 @@
-"""
-PhysicsGIF Scene DSL (Domain Specific Language)
-
-Defines structured scene specifications for text-to-video generation.
-This is the bridge between natural language and physics simulation.
-"""
-
-from dataclasses import dataclass, field
-from typing import List, Tuple, Optional, Dict, Any
-from enum import Enum
 import json
-
+from dataclasses import dataclass, field
+from enum import Enum
+from typing import Any, Dict, List, Optional, Tuple
 
 class ObjectType(Enum):
     """Supported object types."""
